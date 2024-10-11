@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(243, 23%, 18%);
+  color: hsl(240, 10%, 70%);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#root {
+  background-color: hsl(243, 23%, 18%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  background: none;
+  border: none;
+  font: inherit;
+}
